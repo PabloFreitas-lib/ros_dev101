@@ -1,0 +1,2 @@
+
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/blito/ros_dev101/my_minimal_nodes/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/blito/ros_dev101/my_minimal_nodes/install_isolated
