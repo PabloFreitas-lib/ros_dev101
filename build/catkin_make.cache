@@ -1,2 +1,0 @@
-my_minimal_nodes
--DCATKIN_DEVEL_PREFIX=/home/blito/ros_dev101/devel -DCMAKE_INSTALL_PREFIX=/home/blito/ros_dev101/install -G Unix Makefiles

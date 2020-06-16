@@ -31,3 +31,7 @@ alias bashrc='gedit ~/.bashrc &'
 #Ros related
 source /opt/ros/noetic/setup.bash
 source ~/ros_dev101/devel/setup.bash
+
+
+Para fazer o catkin build funcionar foi preciso instalar:
+pip3 install osrf-pycommon && sudo apt install python3-catkin-tools

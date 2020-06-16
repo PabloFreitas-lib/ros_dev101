@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 	input_float.data = 0.0;
 	// do work here in infinite loop (desired for this example), but terminate if detect ROS has faulted
 
-	while(ros::ok())
+	while (ros::ok())
 	{
 		//this loop has no sleep timer, and thus it will consume excessive CPU time
 		// expect one core to 100% dedicated (wastefully) to this small task
