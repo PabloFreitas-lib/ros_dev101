@@ -37,4 +37,3 @@ Para fazer o catkin build funcionar foi preciso instalar:
 pip3 install osrf-pycommon && sudo apt install python3-catkin-tools
 
 https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
-s
