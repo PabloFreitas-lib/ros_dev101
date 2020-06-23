@@ -134,6 +134,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 #add_executable(${my_minimal_nodes}minimal_publisher src/minimal_publisher.cpp)
 add_executable(${my_minimal_nodes}sleepy_minimal_publisher src/sleepy_minimal_publisher.cpp)
+add_executable(${my_minimal_nodes}minimal_subscriber src/minimal_subscriber.cpp)
 
 
 ## Rename C++ executable without prefix
@@ -155,6 +156,10 @@ add_executable(${my_minimal_nodes}sleepy_minimal_publisher src/sleepy_minimal_pu
 # )
 
 target_link_libraries(${my_minimal_nodes}sleepy_minimal_publisher
+   ${catkin_LIBRARIES}
+ )
+
+ target_link_libraries(${my_minimal_nodes}minimal_subscriber
    ${catkin_LIBRARIES}
  )
 

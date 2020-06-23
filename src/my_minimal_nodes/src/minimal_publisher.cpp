@@ -24,7 +24,5 @@ int main(int argc, char **argv)
 		// expect one core to 100% dedicated (wastefully) to this small task
 		input_float.data = input_float.data + 0.001; // increment by 0.001 each iteration
 		my_publisher_object.publish(input_float); // publish the value of type Float64
-
 	}
-
 }
