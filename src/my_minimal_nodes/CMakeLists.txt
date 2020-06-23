@@ -135,6 +135,7 @@ include_directories(
 #add_executable(${my_minimal_nodes}minimal_publisher src/minimal_publisher.cpp)
 add_executable(${my_minimal_nodes}sleepy_minimal_publisher src/sleepy_minimal_publisher.cpp)
 add_executable(${my_minimal_nodes}minimal_subscriber src/minimal_subscriber.cpp)
+add_executable(${my_minimal_nodes}minimal_simulator src/minimal_simulator.cpp)
 
 
 ## Rename C++ executable without prefix
@@ -162,6 +163,10 @@ target_link_libraries(${my_minimal_nodes}sleepy_minimal_publisher
  target_link_libraries(${my_minimal_nodes}minimal_subscriber
    ${catkin_LIBRARIES}
  )
+ target_link_libraries(${my_minimal_nodes}minimal_simulator
+ ${catkin_LIBRARIES}
+)
+
 
 #############
 ## Install ##
